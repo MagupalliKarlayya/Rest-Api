@@ -5,8 +5,8 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js",
-    "keep-alive": "node keep-alive.js",
+    "start": "node index.mjs",
+    "keep-alive": "node keep-alive.cjs",
     "start-all": "npm-run-all --parallel start keep-alive"
   },
   "keywords": [],
