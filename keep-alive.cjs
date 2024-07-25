@@ -3,7 +3,7 @@ const cron = require("node-cron");
 const axios = require("axios");
 
 // Replace with your URL
-const keepAliveUrl = "https://your-instance-url.com/health-check";
+const keepAliveUrl = "https://foodfantacy-app/health-check";
 
 // Schedule the script to run every 5 minutes
 cron.schedule("*/5 * * * *", async () => {
